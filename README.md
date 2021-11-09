@@ -1,0 +1,1 @@
+# stop-auto-update-emails
