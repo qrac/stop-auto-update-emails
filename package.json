@@ -1,0 +1,22 @@
+{
+  "name": "stop-auto-update-emails",
+  "repository": "https://github.com/qrac/stop-auto-update-emails.git",
+  "license": "GPL-2.0+",
+  "author": {
+    "name": "Qrac",
+    "url": "https://qrac.jp"
+  },
+  "organization": {
+    "name": "QRANOKO",
+    "url": "https://qranoko.jp"
+  },
+  "scripts": {
+    "pot": "wp i18n make-pot ./",
+    "zip": "bash ./tasks/zip.sh",
+    "clean": "trash ./dist"
+  },
+  "devDependencies": {
+    "@deboxsoft/cpx": "^1.5.0",
+    "bestzip": "^2.2.0"
+  }
+}
