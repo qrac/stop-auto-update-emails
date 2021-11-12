@@ -88,14 +88,14 @@ class StopAutoUpdateEmails {
     );
     add_settings_field(
       'stop_email_theme',
-      __('WordPress Theme', 'stop-auto-update-emails'),
+      __('WordPress Themes', 'stop-auto-update-emails'),
       [$this, 'stop_email_theme_callback'],
       $this->plugin_name,
       'email_settings'
     );
     add_settings_field(
       'stop_email_plugin',
-      __('WordPress Plugin', 'stop-auto-update-emails'),
+      __('WordPress Plugins', 'stop-auto-update-emails'),
       [$this, 'stop_email_plugin_callback'],
       $this->plugin_name,
       'email_settings'
