@@ -11,6 +11,7 @@ PACKAGE_NAME=$(node -p -e "require('./package.json').name")
 # Copy
 
 cpx "./plugin.php" "./dist/$PACKAGE_NAME"
+cpx "./readme.txt" "./dist/$PACKAGE_NAME"
 
 # Compress
 
