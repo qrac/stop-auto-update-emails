@@ -107,12 +107,12 @@ class StopAutoUpdateEmails {
     ?>
     <label>
       <input
-        name="<?php echo $this->option_name; ?>[stop_email_core]"
+        name="<?php echo esc_attr($this->option_name); ?>[stop_email_core]"
         type="hidden"
         value="0"
       />
       <input
-        name="<?php echo $this->option_name; ?>[stop_email_core]"
+        name="<?php echo esc_attr($this->option_name); ?>[stop_email_core]"
         type="checkbox"
         id="stop_email_core"
         value="1"
@@ -127,12 +127,12 @@ class StopAutoUpdateEmails {
     ?>
     <label>
       <input
-        name="<?php echo $this->option_name; ?>[stop_email_theme]"
+        name="<?php echo esc_attr($this->option_name); ?>[stop_email_theme]"
         type="hidden"
         value="0"
       />
       <input
-        name="<?php echo $this->option_name; ?>[stop_email_theme]"
+        name="<?php echo esc_attr($this->option_name); ?>[stop_email_theme]"
         type="checkbox"
         id="stop_email_theme"
         value="1"
@@ -147,12 +147,12 @@ class StopAutoUpdateEmails {
     ?>
     <label>
       <input
-        name="<?php echo $this->option_name; ?>[stop_email_plugin]"
+        name="<?php echo esc_attr($this->option_name); ?>[stop_email_plugin]"
         type="hidden"
         value="0"
       />
       <input
-        name="<?php echo $this->option_name; ?>[stop_email_plugin]"
+        name="<?php echo esc_attr($this->option_name); ?>[stop_email_plugin]"
         type="checkbox"
         id="stop_email_plugin"
         value="1"
